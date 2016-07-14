@@ -2,6 +2,7 @@ package com.boxfishedu.online.order.controller;
 
 import com.boxfishedu.online.order.entity.OrderForm;
 import com.boxfishedu.online.order.service.OrderService;
+import com.boxfishedu.protocal.exceptions.BusinessException;
 import com.boxfishedu.protocal.model.CommonResult;
 import com.boxfishedu.protocal.premission.UserInfo;
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ import javax.websocket.server.PathParam;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 import static com.boxfishedu.component.boxfish.util.string.FormatUtil.toJsonNoException;
 import static com.boxfishedu.protocal.model.CommonResult.createCommonResult;
@@ -97,9 +99,16 @@ public class OrderAppController {
 
     //FIXME save方法在一个事务中,这个方法必须与save不在同一个Bean中否则事务无效
     private OrderForm createOrderForm(OrderForm orderForm) throws IOException {
-        OrderForm saved = this.orderService.save(orderForm);
+        OrderForm order = this.orderService.save(orderForm);
 
-        return saved;
+        //若为体验订单,向支付中心发送请求
+
+        order = this.orderService.notifyInvitation(order);
+        if(Objects.isNull(order)){
+            throw new BusinessException("创建订单失败 - 体验资格管理中心服务异常!");
+        }
+
+        return order;
     }
 
 

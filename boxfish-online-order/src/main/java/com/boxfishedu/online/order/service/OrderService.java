@@ -11,10 +11,12 @@ import com.boxfishedu.protocal.exceptions.BusinessException;
 import com.boxfishedu.protocal.model.CommonResult;
 import com.github.pagehelper.PageHelper;
 import org.apache.ibatis.annotations.One;
+import org.aspectj.weaver.ast.Or;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
@@ -120,6 +122,43 @@ public class OrderService {
         return orderForm;
     }
 
+    /**
+     * 向支付中心提交
+     */
+    public OrderForm notifyPayCenter(OrderForm orderForm){
+
+        return null;
+    }
+    /**
+     * 向体验中心提交,获取验证码信息
+     */
+    public OrderForm notifyInvitation(OrderForm orderForm){
+        if(!EXPERIENCE.equals(orderForm.getOrderChannel())){
+            return orderForm;
+        }
+
+        try{
+            Long userId = orderForm.getUserId();
+            String orderCode = orderForm.getOrderCode();
+            String url = this.invitationHost + "/use/{userId}/{orderCode}";
+            logger.debug("调用接口[url = {}]", url);
+            logger.debug("向体验资格管理中心发送的请求数据为[userId = {}, orderCode = {}]", userId, orderCode);
+            CommonResult result = this.restTemplate.getForObject(url, CommonResult.class, userId, orderCode);
+            logger.debug("体验资格管理中心的响应内容为[{}]", url, toJsonNoException(result));
+            if(!Objects.isNull(result) && result.getReturnCode() == HttpStatus.OK.value()
+                    && "success".contentEquals(result.getReturnMsg())){
+                return orderForm;
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            logger.error("订单[{}]创建失败 - 体验资格管理中心状态异常.", orderForm.getOrderCode());
+        }
+        this.orderFormMapper.deleteByPrimaryKey(orderForm.getId());
+        this.orderDetailMapper.deleteOrderDatails(orderForm.getId());
+        this.orderLogMapper.deleteOrderLogs(orderForm.getId());
+
+        return null;
+    }
 
     /**
      * 预处理订单
@@ -236,6 +275,16 @@ public class OrderService {
         OrderForm one = OrderForm.createInstance();
         one.setOrderCode(orderCode);
         one.setUserId(userId);
+        OrderForm orderForm = this.orderFormMapper.selectOne(one);
+        if(!Objects.isNull(orderForm)){
+            orderForm.setOrderDetails(this.getDetailsByOrderId(orderForm.getId()));
+        }
+        return orderForm;
+    }
+
+    public OrderForm findByCode(String orderCode){
+        OrderForm one = OrderForm.createInstance();
+        one.setOrderCode(orderCode);
         OrderForm orderForm = this.orderFormMapper.selectOne(one);
         if(!Objects.isNull(orderForm)){
             orderForm.setOrderDetails(this.getDetailsByOrderId(orderForm.getId()));

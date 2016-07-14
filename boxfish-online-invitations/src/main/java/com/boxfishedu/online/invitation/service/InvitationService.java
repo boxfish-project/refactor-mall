@@ -128,37 +128,16 @@ public class InvitationService {
 
     public boolean checkByUserId(Long userId){ return this.invitationMapper.findByUserId(userId) > 0;}
 
-    public boolean updateStatus(String content, String userId){
+    public boolean updateStatus(String userId, String orderCode){
 
-        boolean isSuccess = false;
-        if(StringUtils.isEmpty(content) || content.length() != 20){
-            return isSuccess;
-        }
-
-        Invitation invitation = Invitation.createInstance();
-        invitation.setContent(content);
-        invitation.setStatusCode("unused");
-        invitation = this.invitationMapper.selectOne(invitation);
-        if(Objects.isNull(invitation)){
-            return isSuccess;
-        }
-        invitation.setStatusCode("used");
-        invitation.setUserId(userId);
-        invitation.setUpdateTime(Calendar.getInstance().getTime());
-
-        Example example = new Example(Invitation.class);
-        Example.Criteria criteria = example.createCriteria();
-        criteria.andEqualTo("content", content);
-        criteria.andEqualTo("statusCode", "unused");
-
-        logger.info("尝试修改邀请码[{}]的状态为[used]", content);
-        Integer row = this.invitationMapper.updateByExample(invitation, example);
+        logger.info("尝试修改用户[userId = {}]的邀请码状态为[used]", userId);
+        Integer row = this.invitationMapper.updateStatus(userId, orderCode);
         if(1 == row){
-            isSuccess = true;
-            logger.info("邀请码[{}]的状态已修改为[used], userId = [{}]", content, userId);
+            logger.info("用户[userId = {}]的邀请码状态已修改为[used], 关联订单号为[orderCode = {}]", userId, orderCode);
+            return true;
         }
 
-        return isSuccess;
+        return false;
     }
     /**
      * 查找全部邀请码

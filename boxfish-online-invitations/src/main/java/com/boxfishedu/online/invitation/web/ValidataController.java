@@ -36,9 +36,9 @@ public class ValidataController {
         return createCommonResult(this.service.checkByUserId(userId));
     }
 
-    @RequestMapping(value = "/use/{content}/{userId}", method = RequestMethod.GET)
-    public CommonResult use(@PathVariable String content, @PathVariable String userId){
-        return createCommonResult(this.service.updateStatus(content, userId));
+    @RequestMapping(value = "/use/{userId}/{orderCode}", method = RequestMethod.GET)
+    public CommonResult use(@PathVariable String userId, @PathVariable String orderCode){
+        return createCommonResult(this.service.updateStatus(userId, orderCode));
     }
 
 }
