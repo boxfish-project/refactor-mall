@@ -16,6 +16,7 @@ import static com.boxfishedu.protocal.model.CommonResult.createCommonResult;
  * 使用邀请码
  */
 @RestController
+@RequestMapping("/invitation-check")
 public class ValidataController {
 
     @Autowired
@@ -30,9 +31,9 @@ public class ValidataController {
         return this.service.findPage(invitation).get(0).getContent();
     }
 
-    @RequestMapping(value = "/check/{content}", method = RequestMethod.GET)
-    public CommonResult check(@PathVariable String content){
-        return createCommonResult(this.service.checkContent(content));
+    @RequestMapping(value = "/check/{userId}", method = RequestMethod.GET)
+    public CommonResult check(@PathVariable Long userId){
+        return createCommonResult(this.service.checkByUserId(userId));
     }
 
     @RequestMapping(value = "/use/{content}/{userId}", method = RequestMethod.GET)

@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Calendar;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by malu on 16/6/18.
@@ -23,13 +24,21 @@ public class ProductSkuService {
     @Autowired
     private SkuKeyMapper skuKeyMapper;
 
-    public List<ProductSkuKey> getAllServices(){ return this.skuKeyMapper.selectAllKey();}
+    public List<ProductSkuKey> getAllServices(){
+        List<ProductSkuKey> services = this.skuKeyMapper.selectAll();
+        if(!Objects.isNull(services) && services.size() > 0){
+            for (ProductSkuKey service : services) {
+                service.setServiceSKUSet(this.skuValueMapper.selectByServiceId(service.getId()));
+            }
+        }
+        return services;
+    }
 
     public List<ProductSkuValue> getAllSKU(){
-        List<ProductSkuValue> all = this.skuValueMapper.selectAllSKU();
+        List<ProductSkuValue> all = this.skuValueMapper.selectAll();
         if (all == null || all.isEmpty()) {
             ProductSkuValue sku = ProductSkuValue.createInstance();
-            sku.setServiceType(ServiceType.CHINESE_TEACHER);
+//            sku.setServiceType(ServiceType.CHINESE_TEACHER);
             sku.setSkuName("中教在线授课");
             sku.setSkuCode("100101");
             sku.setCreateTime(Calendar.getInstance().getTime());
@@ -46,6 +55,12 @@ public class ProductSkuService {
                 all = Lists.newArrayList(sku);
             }
         }
-        return this.skuValueMapper.selectAllSKU();
+
+        if(all != null && !all.isEmpty()){
+            for (ProductSkuValue value : all) {
+                value.setServiceBasic(this.skuKeyMapper.selectById(value.getServiceId()));
+            }
+        }
+        return all;
     }
 }

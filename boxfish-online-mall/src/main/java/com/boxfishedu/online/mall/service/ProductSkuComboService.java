@@ -4,6 +4,9 @@ import com.boxfishedu.online.mall.app.configure.ConfigProperties;
 import com.boxfishedu.online.mall.entity.ProductSkuCombo;
 import com.boxfishedu.online.mall.entity.ProductSkuValue;
 import com.boxfishedu.online.mall.mappers.SkuComboMapper;
+import com.boxfishedu.online.mall.mappers.SkuKeyMapper;
+import com.boxfishedu.online.mall.mappers.SkuValueMapper;
+import com.boxfishedu.protocal.enums.ServiceType;
 import com.boxfishedu.protocal.exceptions.BusinessException;
 import com.google.common.collect.Lists;
 import org.slf4j.Logger;
@@ -29,6 +32,8 @@ import static com.google.common.collect.Lists.newArrayList;
 public class ProductSkuComboService {
     @Autowired
     private SkuComboMapper skuComboMapper;
+    @Autowired
+    private SkuValueMapper skuValueMapper;
     @Autowired
     private ProductSkuService productSkuService;
     @Autowired
@@ -56,7 +61,16 @@ public class ProductSkuComboService {
      * 从数据库获取所有Combo
      * @return combos
      */
-    public List<ProductSkuCombo> getAllCombosFromMySQL(){ return this.skuComboMapper.selectAllCom();}
+    public List<ProductSkuCombo> getAllCombosFromMySQL(){
+        List<ProductSkuCombo> combos = this.skuComboMapper.selectAll();
+        if(!Objects.isNull(combos) && combos.size() > 0){
+            for (ProductSkuCombo combo : combos) {
+                ProductSkuValue value = this.skuValueMapper.selectById(combo.getSkuId());
+                combo.setServiceSKU(value);
+            }
+        }
+        return combos;
+    }
 
     /**
      * 获取combo
@@ -205,7 +219,7 @@ public class ProductSkuComboService {
         List<ProductSkuCombo> skuCombos = Lists.newArrayList();
         try{
             for (ProductSkuCombo skuCombo : iterable) {
-                int row = 0;
+                int row;
                 ProductSkuCombo combo = this.skuComboMapper.selectByPrimaryKey(skuCombo);
                 if(!Objects.isNull(combo)){
                     row = this.skuComboMapper.updateByPrimaryKey(skuCombo);

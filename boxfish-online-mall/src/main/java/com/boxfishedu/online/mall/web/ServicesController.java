@@ -1,6 +1,7 @@
 package com.boxfishedu.online.mall.web;
 
 import com.boxfishedu.online.mall.entity.ProductSkuCombo;
+import com.boxfishedu.online.mall.entity.ProductSkuKey;
 import com.boxfishedu.online.mall.entity.ProductSkuValue;
 import com.boxfishedu.online.mall.service.ProductSkuComboService;
 import com.boxfishedu.online.mall.service.ProductSkuService;
@@ -56,7 +57,9 @@ public class ServicesController {
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public CommonResult getAllServices(){
-        List<ProductSkuValue> skuValues = this.skuService.getAllSKU();
-        return createCommonResult(skuValues);
+//        List<ProductSkuValue> skuValues = this.skuService.getAllSKU();
+//        return createCommonResult(skuValues);
+        List<ProductSkuKey> skuKeys = this.skuService.getAllServices();
+        return createCommonResult(skuKeys);
     }
 }

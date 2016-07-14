@@ -25,4 +25,15 @@ public class InvalidInputResponseBuilder {
         return responseWrapper;
     }
 
+    public static HttpServletResponse unauthorized(HttpServletResponse response, String message) throws IOException {
+        HttpServletResponse responseWrapper = new HttpServletResponseWrapper(response);
+
+        responseWrapper.setHeader("content-type", "application/json");
+        responseWrapper.setStatus(HttpStatus.UNAUTHORIZED.value());
+        ErrorResult errorResult = ErrorResult.newErrorResult(message);
+        errorResult.setReturnCode(HttpStatus.UNAUTHORIZED.value());
+        responseWrapper.getWriter().write(toJson(errorResult));
+
+        return responseWrapper;
+    }
 }

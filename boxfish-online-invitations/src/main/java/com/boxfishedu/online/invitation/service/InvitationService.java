@@ -126,6 +126,8 @@ public class InvitationService {
         return false;
     }
 
+    public boolean checkByUserId(Long userId){ return this.invitationMapper.findByUserId(userId) > 0;}
+
     public boolean updateStatus(String content, String userId){
 
         boolean isSuccess = false;

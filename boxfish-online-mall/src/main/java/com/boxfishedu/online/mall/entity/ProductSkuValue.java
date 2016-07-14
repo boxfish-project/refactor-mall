@@ -1,12 +1,15 @@
 package com.boxfishedu.online.mall.entity;
 
+import com.boxfishedu.component.boxfish.util.bean.BeanToJson;
 import com.boxfishedu.protocal.enums.Flag;
 import com.boxfishedu.protocal.enums.ServiceType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -19,7 +22,7 @@ import java.util.Date;
 @Data(staticConstructor = "createInstance")
 @ToString(exclude = "serviceBasic")
 @Entity
-public class ProductSkuValue {
+public class ProductSkuValue extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,6 +37,8 @@ public class ProductSkuValue {
     @Transient
     private ProductSkuKey serviceBasic;
 
+    private Long serviceId;
+
     private String skuCode;
 
     private String skuName;
@@ -47,8 +52,7 @@ public class ProductSkuValue {
     @Temporal(TemporalType.TIMESTAMP)
     private Date deadline;          //失效时间,通过计划任务每天固定时段自动修改sku的可用性
 
-    @Enumerated
-    private ServiceType serviceType;    //标识中教/外教
+    private String serviceType;    //标识中教/外教
 
     @Enumerated(EnumType.STRING)
     private Flag flagEnable;     //是否可用

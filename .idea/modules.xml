@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boxfish-component/boxfish-component.iml" filepath="$PROJECT_DIR$/boxfish-component/boxfish-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boxfish-online-invitations/boxfish-online-invitations.iml" filepath="$PROJECT_DIR$/boxfish-online-invitations/boxfish-online-invitations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boxfish-online-mall/boxfish-online-mall.iml" filepath="$PROJECT_DIR$/boxfish-online-mall/boxfish-online-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boxfish-online-order/boxfish-online-order.iml" filepath="$PROJECT_DIR$/boxfish-online-order/boxfish-online-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boxfish-protocal/boxfish-protocal.iml" filepath="$PROJECT_DIR$/boxfish-protocal/boxfish-protocal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-mall.iml" filepath="$PROJECT_DIR$/online-mall.iml" />
+    </modules>
+  </component>
+</project>
