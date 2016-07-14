@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邀请码推广</title>
+</head>
+<body>
+<script language="javascript">
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)return unescape(r[2]);
+        return null;
+    }
+    window.location.href = "http://qr.liantu.com/api.php?text=" + GetQueryString("content") + "&logo=http://www.boxfish.cn/images/logo.png";
+</script>
+</body>
+</html>

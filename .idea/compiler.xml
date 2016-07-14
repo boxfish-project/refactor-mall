@@ -35,7 +35,7 @@
       <module name="boxfish-online-mall" target="1.8" />
       <module name="boxfish-online-order" target="1.8" />
       <module name="boxfish-protocal" target="1.8" />
-      <module name="online-mall" target="1.8" />
+      <module name="refactor-mall" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

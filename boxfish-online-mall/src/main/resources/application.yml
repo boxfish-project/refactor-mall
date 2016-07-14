@@ -1,0 +1,112 @@
+spring.application.name: boxfish-online-mall
+
+logging:
+  file: ${user.home}/logs/${spring.application.name}.log
+  level:
+      org.springframework: INFO
+      com.boxfishedu.online.mall: DEBUG
+
+server.port: 8081
+
+conf.count-need-create:
+    - 8
+    - 16
+conf.cycle-need-create:
+    - 1
+
+spring.profiles.active: testm
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization-inclusion: always
+    time-zone: GMT+8
+---
+spring:
+  profiles: development
+
+  datasource:
+    url: jdbc:mysql://boxfish2016outside.mysql.rds.aliyuncs.com:3306/mall?useUnicode=true&characterEncoding=utf8
+    username: mall
+    password: Box123456
+    connection-timeout: 5000
+    driverClassName: com.mysql.jdbc.Driver
+    validation-query: SELECT 1
+    test-while-idle: true
+
+  jpa:
+    show-sql: false
+---
+spring:
+  profiles: test
+
+  datasource:
+    url: jdbc:mysql://boxfish2016inside.mysql.rds.aliyuncs.com:3306/mall_test?useUnicode=true&characterEncoding=utf8
+    username: mall
+    password: Box123456
+    driverClassName: com.mysql.jdbc.Driver
+    validation-query: SELECT 1
+    test-while-idle: true
+    connection-timeout: 5000
+
+  jackson:
+    serialization-inclusion: always
+
+  redis:
+      host: 8619f2f4a93c4a70.m.cnbja.kvstore.aliyuncs.com
+      password: Box12345678
+      database: 5
+---
+spring:
+  profiles: sandbox
+
+  datasource:
+    url: jdbc:mysql://boxfish2016inside.mysql.rds.aliyuncs.com:3306/mall?useUnicode=true&characterEncoding=utf8
+    username: mall
+    password: Box123456
+    driverClassName: com.mysql.jdbc.Driver
+    validation-query: SELECT 1
+    test-while-idle: true
+    connection-timeout: 1000
+
+  jackson:
+    serialization-inclusion: always
+
+  redis:
+      host: 8619f2f4a93c4a70.m.cnbja.kvstore.aliyuncs.com
+      password: Box12345678
+      database: 10
+---
+  spring:
+    profiles: product
+
+    datasource:
+      url: jdbc:mysql://boxfish2016demoinside.mysql.rds.aliyuncs.com:3306/mall?useUnicode=true&characterEncoding=utf8
+      username: mall
+      password: Box123456
+      driverClassName: com.mysql.jdbc.Driver
+      validation-query: SELECT 1
+      test-while-idle: true
+      connection-timeout: 1000
+    jackson:
+      serialization-inclusion: always
+
+    redis:
+        host: 8cd5c3de54f8402f.m.cnbja.kvstore.aliyuncs.com
+        password: Boxfish2016
+        database: 10
+
+---
+  spring:
+    profiles: testm
+
+    datasource:
+      url: jdbc:mysql://192.168.0.100:3306/mall_sylvia?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: boxfish
+      connection-timeout: 5000
+      driverClassName: com.mysql.jdbc.Driver
+      validation-query: SELECT 1
+      test-while-idle: true
+
+    redis:
+        host: localhost
