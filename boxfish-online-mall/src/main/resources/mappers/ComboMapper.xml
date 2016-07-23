@@ -1,0 +1,77 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boxfishedu.online.mall.mappers.ComboMapper">
+
+    <select id="queryComboWithPage" resultType="com.boxfishedu.online.mall.entity.ComboVo">
+
+        select *
+        from
+            (SELECT
+                c.id AS id,
+--                 c.create_time AS createTime,
+--                 c.update_time AS updateTime,
+                c.original_price AS originalPrice,
+                c.actual_price AS actualPrice,
+                c.sku_amount AS skuAmount,
+                c.sku_cycle AS skuCycle,
+--                 v.sku_name AS skuName,
+                v.original_price AS unitPrice
+--                 k.service_name AS serviceName
+            FROM
+                product_sku_combo c inner join product_sku_value v ON c.sku_id = v.id
+                inner join product_sku_key k ON v.service_id = k.id
+            where 1=1 and c.sku_id=#{skuId}
+            <!--<if test="skuName != null and skuName != ''">-->
+                <!--and v.sku_name like "%"#{skuName}"%"-->
+            <!--</if>-->
+            <!--<if test="serviceName != null and serviceName != ''">-->
+                <!--and k.service_name like "%"#{serviceName}"%"-->
+            <!--</if>-->
+            <!--<if test="skuId != null and skuId != ''">-->
+                <!---->
+            <!--</if>-->
+            <if test="skuAmount != null and skuAmount != ''">
+                and c.sku_amount=#{skuAmount}
+            </if>
+            <if test="skuCycle != null and skuCycle != ''">
+                and c.sku_cycle=#{skuCycle}
+            </if>
+            <if test="originallPrice != null and originallPrice != ''">
+                and c.original_price=#{originallPrice}
+            </if>
+            <if test="actualPrice != null and actualPrice != ''">
+                and c.actual_price=#{actualPrice}
+            </if>
+            <!--<if test="startOrderTime != null ">-->
+                <!--and order_time <![CDATA[>=]]> #{startOrderTime}-->
+            <!--</if>-->
+            <!--<if test="endOrderTime != null ">-->
+                <!--and order_time <![CDATA[<=]]> #{endOrderTime}-->
+            <!--</if>-->
+            order by id ) t
+        limit #{rowOffset},#{pageNum}
+    </select>
+
+    <select id="countOrderinfo" resultType="int">
+        select count(*)
+        from orderinfo
+        where 1=1
+        <if test="userId != null and userId != ''">
+            and user_id=#{userId}
+        </if>
+        <if test="orderNo != null and orderNo != ''">
+            and order_no=#{orderNo}
+        </if>
+        <if test="orderState != null and orderState != ''">
+            and order_state=#{orderState}
+        </if>
+        <if test="startOrderTime != null ">
+            and order_time <![CDATA[>=]]> #{startOrderTime}
+        </if>
+        <if test="endOrderTime != null ">
+            and order_time <![CDATA[<=]]> #{endOrderTime}
+        </if>
+    </select>
+
+</mapper>

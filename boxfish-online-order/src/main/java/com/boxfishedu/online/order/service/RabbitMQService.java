@@ -3,6 +3,7 @@ package com.boxfishedu.online.order.service;
 import com.boxfishedu.online.order.entity.OrderForm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -14,6 +15,7 @@ import static com.boxfishedu.online.order.app.configure.RabbitMQConstant.*;
 
 /**
  * Created by malu on 16/7/14.
+ * RabbitMQ服务接口,支付完成更新订单时使用
  */
 @Service
 public class RabbitMQService {
@@ -52,6 +54,11 @@ public class RabbitMQService {
             logger.error("订单[order_code = {}]未进入消息队列[queue = {}]", orderForm.getOrderCode(), PRE_UPDATE_ORDER_QUEUE);
         }
     }
+
+    /**
+     * 从准备更新状态的订单队列中获取并处理这些订单
+     */
+    @RabbitListener()
 
     public void preUpdateStatus(OrderForm orderForm){
 

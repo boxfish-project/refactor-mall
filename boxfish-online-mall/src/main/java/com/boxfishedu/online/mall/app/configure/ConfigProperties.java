@@ -15,4 +15,6 @@ public class ConfigProperties {
 
     private List<String> cycleNeedCreate;
 
+    private List<Account> accounts;
+
 }

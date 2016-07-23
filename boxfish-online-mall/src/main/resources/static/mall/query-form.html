@@ -1,0 +1,82 @@
+<div class="modal-content">
+    <div class="modal-header no-padding">
+        <div class="table-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <span class="white">×</span>
+            </button>
+            筛选
+            <i class="ace-icon fa fa-spinner fa-spin orange bigger-180 hidden" id="processing"></i>
+        </div>
+    </div>
+    <div class="modal-body no-padding">
+        <form id="queryForm" class="form-horizontal">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space-10"></div>
+                    <label class="col-md-4 control-label" for="skuAmount">数量</label>
+                    <div class="col-md-4">
+                        <input id="skuAmount" name="skuAmount" type="text" onkeyup="setValue(this);" placeholder="精确匹配" class="form-control input-md">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="skuCycle">周期</label>
+                    <div class="col-md-4">
+                        <input id="skuCycle" name="skuskuCycle" type="text" onkeyup="setValue(this);" placeholder="精确匹配" class="form-control input-md">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="originalPrice">原价</label>
+                    <div class="col-md-4">
+                        <input id="originalPrice" name="originalPrice" type="text" onkeyup="setValue(this);" placeholder="精确匹配" class="form-control input-md">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="actualPrice">套餐价格</label>
+                    <div class="col-md-4">
+                        <input id="actualPrice" name="actualPrice" type="text" onkeyup="setValue(this);" placeholder="精确匹配" class="form-control input-md">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="space-10"></div>
+    <div class="modal-footer no-margin-top center">
+        <button class="btn btn-sm btn-default fa-pull-right" data-dismiss="modal" id="btnClose">
+            <i class="ace-icon fa fa-times"></i>
+            取消
+        </button>
+
+        <button class="btn btn-sm btn-success fa-pull-right" id="btnSubmit">
+            <i class="ace-icon fa fa-check"></i>
+            确认
+        </button>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var setValue = function (input) {
+        var value = $(input).val();
+        value = value.replace(/[^\d]/g, "");
+        value = value - 1 + 1;//"01"->"1"
+        $(input).val(value);
+    };
+
+    $("#btnSubmit").on('click', function () {
+        $("#processing").removeClass("hidden");
+        var skuAmount = $('#skuAmount').val();
+        var skuCycle = $('#skuCycle').val();
+        var originalPrice = $('#originalPrice').val();
+        var actualPrice = $('#actualPrice').val();
+
+        reloadTable(skuAmount, skuCycle, originalPrice, actualPrice);
+        $("#btnClose").click();
+    });
+
+    //按查询条件重新加载表格数据
+    function reloadTable(p1, p2, p3, p4) {
+        $("#grid-table").jqGrid('setGridParam', {
+            datatype: "json",
+            url: "/admin/list?access_token=" + $accessToken+ "&skuId=" + $skuId + "&skuAmount=" + p1 + "&skuCycle=" + p2+ "&originalPrice=" + p3 + "&actualPrice=" + p4,
+            page: 1
+        }).trigger('reloadGrid');
+    }
+
+
+</script>

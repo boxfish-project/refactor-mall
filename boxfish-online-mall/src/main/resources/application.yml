@@ -13,6 +13,7 @@ conf.count-need-create:
     - 16
 conf.cycle-need-create:
     - 1
+conf.defaultPageNum: 10
 
 spring.profiles.active: testm
 spring:

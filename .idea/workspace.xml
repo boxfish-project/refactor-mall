@@ -2,17 +2,553 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d5e815-d03f-450a-bff5-b934719db015" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/avatar1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/avatar4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/profile-pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/avatars/user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/chosen-sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/border1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/border2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderBottomCenter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderBottomLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderBottomRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderMiddleLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderMiddleRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderTopCenter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderTopLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/ie6/borderTopRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/loading_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/meteorshower.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/meteorshower2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/pattern.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/img/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/img/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/img/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/OpenSans-300.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/OpenSans-400.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/email1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/email2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/email3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/email4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/image-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/image-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/image-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/image-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/image-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/image-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/thumb-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/thumb-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/thumb-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/thumb-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/thumb-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/gallery/thumb-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/img/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/buttons/swf/flashExport.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/swf/copy_csv_xls_pdf.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/AdditionalParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/ComboVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/TreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/ComboMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/service/ProductSkuAdminService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/TestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/mappers/ComboMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/add-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-ie.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-part2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-part2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ace.onpage-help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-duallistbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-duallistbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-editable.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-multiselect.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-multiselect.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap-timepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/chosen.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/colorbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/colorbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/daterangepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/jquery-ui.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/jquery.gritter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/jquery.gritter.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/ace-features.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/ace-nav.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/ace-responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/ace-rtl.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/ace.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/basic.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bootstrap/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/bs3-reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/dropdown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/dropdown/colorpicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/dropdown/navbar-dropdown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/dropdown/navbar-tabbed-dropdown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/ext/bootstrap-tag.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/fonts-rel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/fonts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/form/checkbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/form/file.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/gallery.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/general.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/icon-animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/infobox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/items.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/label-badge.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/modal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/collapsible.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/navbar-menu-form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/toggle-button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/user-buttons-move-down.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/user-buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/user-dropdown-position.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/navbar/user-menu.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/onpage-help.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/other.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.error.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.inbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.invoice.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.login.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.pricing.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.profile.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/page.timeline.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/progressbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/scroll.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/searchbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/active.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/compact.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/ff_fix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/highlight.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/horizontal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/hover.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/multiple.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/old-toggle-button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/responsive-1.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/responsive-2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/responsive-3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/shortcuts-toggle.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/sidebar-fixed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/sidebar/sub-arrow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/skins/empty.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/skins/no-skin.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/skins/skin-1.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/skins/skin-2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/skins/skin-3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/skins/skins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/tab-accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-calendar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-chosen.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-colorbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-dataTables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-date.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-dropzone.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-duallist-multiselect.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-editable.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-fuelux.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-gritter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-jqgrid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-jquery-ui.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-nestable.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-raty.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-select2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-slider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-typeahead.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/thirdparty-wysiwyg.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/tooltip-popover.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/utility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/less/widget.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/pace.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/prettify.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/css/ui.jqgrid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.1.0/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.2.0/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/fonts.googleapis.com.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/fonts/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace-elements.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace-elements.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace-extra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace-extra.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.ajax-content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.auto-container.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.auto-padding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.onpage-help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.searchbox-autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.settings-rtl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.settings-skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.sidebar-scroll-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.sidebar-scroll-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.submenu-hover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.touch-drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.widget-box.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.widget-on-reload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.aside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.onpage-help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.treeview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/elements.wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/scripts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/additional-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/additional-methods.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/autosize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-datetimepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-markdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-multiselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-multiselect.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-tag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-tag.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap-wysiwyg.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/chosen.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/chosen.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables.colVis.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables.tableTools.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/buttons/buttons.colVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/buttons/buttons.flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/buttons/buttons.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/buttons/buttons.print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/buttons/dataTables.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/extensions/select/dataTables.select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/jquery.dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dataTables/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/date-time/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/date-time/bootstrap-datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/date-time/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/date-time/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/date-time/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/daterangepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux.spinner.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux.tree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux.wizard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux/fuelux.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux/fuelux.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux/fuelux.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/html5shiv-printshiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/html5shiv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-dk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/i18n/grid.locale-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/jquery.jqGrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery-ui.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.2.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.autosize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.bootstrap-duallistbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.bootstrap-duallistbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.colorbox-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.colorbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.colorbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.easypiechart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.flot.pie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.flot.resize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.gritter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.gritter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.hotkeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.hotkeys.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.inputlimiter.1.3.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.inputlimiter.1.3.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.knob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.maskedinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.maskedinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.mobile.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.mobile.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.nestable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.raty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.raty.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.slimscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.ui.touch-punch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.ui.touch-punch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery1x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery1x.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/markdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/markdown/bootstrap-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/markdown/to-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/pace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/prettify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/respond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/spin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/spin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/typeahead.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/typeahead.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/x-editable/ace-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/x-editable/bootstrap-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/comboManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/combos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/create-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/add-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/clipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combo-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/create-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/process.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/query-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/templates/combos.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/mappers/InvitationMapper.java" afterPath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/mappers/InvitationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/service/InvitationService.java" afterPath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/service/InvitationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/ValidataController.java" afterPath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/ValidataController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAdminController.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAppController.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAppController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderDetailMapper.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderDetailMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderFormMapper.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderFormMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderLogMapper.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderLogMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/OrderService.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/OrderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/entity/Invitation.java" afterPath="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/entity/Invitation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/js/invitation-list.js" afterPath="$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/js/invitation-list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/ConfigProperties.java" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/ConfigProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/SkuComboMapper.java" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/SkuComboMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java" afterPath="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java" />
     </list>
     <ignored path="refactor-mall.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,56 +575,44 @@
     <favorites_list name="refactor-mall" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OrderAdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAdminController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="combo-manager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combo-manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="1729">
+              <caret line="242" column="51" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#getParameter#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RabbitMQService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java">
+      <file leaf-file-name="query-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/query-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
+            <state relative-caret-position="57">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderFormMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderFormMapper.java">
+      <file leaf-file-name="create-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/create-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="166" selection-start-line="20" selection-start-column="166" selection-end-line="20" selection-end-column="166" />
+            <state relative-caret-position="-249">
+              <caret line="39" column="111" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderDetailMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderDetailMapper.java">
+      <file leaf-file-name="create-form.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/create-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="349">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -99,7 +623,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,7 +648,6 @@
       <list>
         <option value="$PROJECT_DIR$/boxfish-component/pom.xml" />
         <option value="$PROJECT_DIR$/boxfish-online-invitations/pom.xml" />
-        <option value="$PROJECT_DIR$/boxfish-online-mall/pom.xml" />
         <option value="$PROJECT_DIR$/boxfish-online-order/pom.xml" />
         <option value="$PROJECT_DIR$/boxfish-protocal/pom.xml" />
         <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/entity/OrderLog.java" />
@@ -132,9 +658,42 @@
         <option value="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/ValidataController.java" />
         <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAppController.java" />
         <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java" />
         <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAdminController.java" />
         <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderFormMapper.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/pom.xml" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/service/ProductSkuComboService.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/entity/Invitation.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/AdminController.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/js/invitation-list.js" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/SkuComboMapper.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/ComboVo.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/ConfigProperties.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/Account.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/invitations.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/login.js" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/add-combo.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/query-form.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/templates/invitations.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/login.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/add-form.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/TestController.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combos.js" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/combos.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/combos2.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/comboManager.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/AdminController.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/ComboMapper.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/TreeNode.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/AdditionalParameters.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/service/ProductSkuAdminService.java" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/mappers/ComboMapper.xml" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combo-manager.js" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/add-form.js" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/query-form.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/create-form.html" />
+        <option value="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/create-form.js" />
       </list>
     </option>
   </component>
@@ -182,6 +741,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,7 +770,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,7 +784,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -242,7 +802,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -268,7 +828,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -280,11 +840,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,7 +858,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -310,15 +870,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,7 +888,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -344,11 +900,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boxfish-online-mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -366,7 +952,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-order" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -382,11 +968,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,95 +982,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -504,37 +998,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
+              <option name="myItemId" value="mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -552,7 +1016,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -568,7 +1032,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
+              <option name="myItemId" value="mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -586,7 +1050,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boxfish-online-invitations" />
+              <option name="myItemId" value="boxfish-online-mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -602,7 +1066,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
+              <option name="myItemId" value="mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -610,24 +1074,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boxfish-online-mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.boxfishedu.online.mall.app.configure" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall" />
+      <recent name="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/boxfish-online-mall/src/main/resources" />
+      <recent name="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -882,6 +1391,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -1069,6 +1579,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1098,8 +1614,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Application (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -1117,43 +1633,55 @@
       <option name="presentableId" value="Default" />
       <updated>1468464270023</updated>
       <workItem from="1468464271215" duration="14972000" />
+      <workItem from="1468545872800" duration="14530000" />
+      <workItem from="1468634171155" duration="14510000" />
+      <workItem from="1468663776504" duration="319000" />
+      <workItem from="1468804839049" duration="9084000" />
+      <workItem from="1468818567724" duration="2462000" />
+      <workItem from="1468824964531" duration="12732000" />
+      <workItem from="1468892138371" duration="26933000" />
+      <workItem from="1468979974344" duration="3989000" />
+      <workItem from="1468999368751" duration="11454000" />
+      <workItem from="1469064618440" duration="8360000" />
+      <workItem from="1469151768674" duration="22948000" />
+      <workItem from="1469238261108" duration="19472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14972000" />
+    <option name="totallyTimeSpent" value="161765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28760162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2143617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25304878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1176,7 +1704,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1185,224 +1713,447 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.1/pagehelper-4.1.1.jar!/com/github/pagehelper/PageInfo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-component/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2812">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/entity/OrderLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-protocal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1482">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-protocal/src/main/java/com/boxfishedu/protocal/enums/OrderChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-protocal/src/main/java/com/boxfishedu/protocal/enums/OrderStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/InvitationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/mappers/InvitationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/service/InvitationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="426">
+          <caret line="95" column="57" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="45" column="30" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/service/ProductSkuComboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="184" column="39" selection-start-line="184" selection-start-column="31" selection-end-line="184" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/entity/Invitation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/SkuComboMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/app/configure/ConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/jquery-form.js" />
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/ServicesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jquery.2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/templates/invitations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/ace/ace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/js/invitation-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1719">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/query-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="22" selection-start-line="18" selection-start-column="16" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/ValidataController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="570">
           <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1064">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/static/create-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAppController.java">
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/ProductSkuCombo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="65">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/x-editable/bootstrap-editable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19608">
+          <caret line="1035" column="8" selection-start-line="1035" selection-start-column="8" selection-end-line="1035" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/jqGrid/jquery.jqGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268793">
+          <caret line="14147" column="4" selection-start-line="14147" selection-start-column="4" selection-end-line="14147" selection-end-column="4" />
+          <folding>
+            <marker date="1467691647000" expanded="true" signature="10031:10043" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="10100:10110" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="10142:10166" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="86692:86708" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="89198:89209" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="89524:89560" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="103415:103427" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="107683:107708" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="108634:108659" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="111538:111563" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="117788:117806" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="161782:161890" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="161966:162110" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="163556:163650" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="183497:183541" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="183582:183603" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="196326:196413" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="196500:196618" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="196777:196895" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="216959:217005" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="218621:218637" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="218880:218893" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="242885:242932" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="245988:246009" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="246378:246419" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="252830:252843" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="255329:255359" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="255445:255455" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="255510:255521" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="269683:269695" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="269878:269890" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="287752:287779" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="288183:288196" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="289646:289657" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="289783:289793" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="293760:293772" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="293864:293892" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="293983:294012" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="294139:294167" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="294249:294257" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="305348:305360" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="307790:307817" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="315811:315870" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="315976:315988" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="316076:316088" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="316163:316179" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="316619:316629" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="325939:325949" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="332128:332164" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="336440:336450" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="336874:336884" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="338046:338069" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="341273:341283" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="356197:356245" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="357399:357433" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="357851:357885" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="406579:406612" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="437786:437801" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="444610:444625" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="445530:445545" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="448570:448593" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="491345:491371" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="491672:491698" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="491996:492007" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="492280:492303" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="492580:492604" placeholder="..." />
+            <marker date="1467691647000" expanded="true" signature="492750:492766" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="158" column="20" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/templates/login.html" />
+    <entry file="file://$PROJECT_DIR$/boxfish-online-invitations/src/main/java/com/boxfishedu/online/invitation/web/InvitationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/templates/combos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/clipboard.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/clipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/combos2.html" />
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/combos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/ComboVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="e#2074#2075#0" expanded="false" />
+            <element signature="e#2108#2109#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/assets/js/fuelux.tree.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/controller/OrderAdminController.java">
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/comboManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/RabbitMQService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderFormMapper.java">
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/entity/AdditionalParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="166" selection-start-line="20" selection-start-column="166" selection-end-line="20" selection-end-column="166" />
+        <state relative-caret-position="368">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/mappers/ComboMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boxfish-online-order/src/main/java/com/boxfishedu/online/order/mappers/OrderDetailMapper.java">
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/service/ProductSkuAdminService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="363">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/java/com/boxfishedu/online/mall/web/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/mappers/ComboMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <marker date="1469264074000" expanded="true" signature="294:2310" placeholder="select * fro... id" />
+            <marker date="1469264074000" expanded="true" signature="329:2268" placeholder="SELECT c.id product_sku_combo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/add-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/combo-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="242" column="51" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc;n#getParameter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/query-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/add-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="93" column="7" selection-start-line="67" selection-start-column="4" selection-end-line="93" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/create-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="39" column="111" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxfish-online-mall/src/main/resources/static/mall/js/create-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -25,4 +25,6 @@ public class Invitation extends BaseEntity {
     private Date updateTime;
 
     private Long operator;
+
+    private String orderCode;
 }

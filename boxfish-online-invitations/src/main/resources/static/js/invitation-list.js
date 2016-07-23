@@ -40,7 +40,7 @@ $(function ($) {
         datatype: "json",
         height: 450,
         emptyrecords: "未检索到相关数据",
-        colNames: ['序号', '邀请码', '状态', '创建者', '创建时间', '使用者', '使用时间'],
+        colNames: ['序号', '邀请码', '状态', '创建者', '创建时间', '使用者', '使用时间', "订单号"],
         colModel: [
             {name: 'id', index: 'id', width: 40, align: "center", sortable: false, search: false},
             {
@@ -62,7 +62,8 @@ $(function ($) {
             {name: 'operator', index: 'operator', width: 40, align: "center", sortable: false, search: false},
             {name: 'createTime', index: 'createTime', width: 90, align: "center", sortable: false, search: false},
             {name: 'userId', index: 'userId', width: 40, align: "center", sortable: false},
-            {name: 'updateTime', index: 'updateTime', width: 90, align: "center", sortable: false, search: false}
+            {name: 'updateTime', index: 'updateTime', width: 90, align: "center", sortable: false, search: false},
+            {name: 'orderCode', index: 'orderCode', width: 95, align: "center", sortable: false, search: false}
         ],
         sortable: false,
         viewrecords: true,
