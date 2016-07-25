@@ -202,8 +202,12 @@ $(function ($) {
                 title: "创建",
                 buttonicon: 'ace-icon fa fa-plus-circle purple bigger-160',
                 onClickButton: function () {
+                    if($skuId == null || $skuId == ""){
+                        alert("请选择左侧服务!");
+                        return false;
+                    }
                     $.ajax({
-                        url: "add-form.html?skuId=" + $skuId,
+                        url: "create-form.html?skuId=" + $skuId,
                         success: function (result) {
                             $('.modal-dialog').html(result);
                             $("#btnCreate").click();

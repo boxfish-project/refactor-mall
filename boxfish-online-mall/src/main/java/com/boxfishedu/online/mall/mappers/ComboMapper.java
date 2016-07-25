@@ -12,8 +12,8 @@ import java.util.Map;
  */
 public interface ComboMapper extends BaseMapper<ComboVo>{
     //查找套餐是否已经存在(按课时数判断)
-    @Select("select count(0) from product_sku_combo c where c.sku_id = #{skuId} and c.sku_amount = #{skuAmount}")
-    Integer checkComboByAmount(@Param("skuId") Long skuId, @Param("skuAmount") Integer skuAmout);
+    @Select("select count(0) from product_sku_combo c where c.sku_id = #{skuId} and c.sku_amount = #{skuAmount} and c.sku_Cycle = #{skuCycle}")
+    Integer checkComboByAmount(@Param("skuId") Long skuId, @Param("skuAmount") Integer skuAmout, @Param("skuCycle") Integer skuCycle);
     //按条件分页查询函数(ComboMapper.xml)
     List<ComboVo> queryComboWithPage(Map<String, Object> param);
     //修改套餐价格

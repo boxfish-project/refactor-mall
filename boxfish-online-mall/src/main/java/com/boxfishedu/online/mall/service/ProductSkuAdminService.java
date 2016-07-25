@@ -62,7 +62,7 @@ public class ProductSkuAdminService {
      * @return
      */
     public Boolean createCombo(ComboVo comboVo){
-        Integer row = this.comboMapper.checkComboByAmount(comboVo.getSkuId(), comboVo.getSkuAmount());
+        Integer row = this.comboMapper.checkComboByAmount(comboVo.getSkuId(), comboVo.getSkuAmount(), comboVo.getSkuCycle());
         if(row != 0){
             return false;
         }
@@ -70,6 +70,7 @@ public class ProductSkuAdminService {
         ProductSkuCombo combo = ProductSkuCombo.createInstance();
         combo.setSkuId(comboVo.getSkuId());
         combo.setSkuAmount(comboVo.getSkuAmount());
+        combo.setSkuCycle(comboVo.getSkuCycle());
         combo.setActualPrice(comboVo.getActualPrice());
         combo.setOriginalPrice(comboVo.getUnitPrice()*comboVo.getSkuAmount());
         combo.setCreateTime(Calendar.getInstance().getTime());
