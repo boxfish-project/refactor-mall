@@ -4,6 +4,7 @@ import com.boxfishedu.online.mall.app.common.BaseMapper;
 import com.boxfishedu.online.mall.entity.ProductSkuKey;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
@@ -25,4 +26,13 @@ public interface SkuKeyMapper extends BaseMapper<ProductSkuKey> {
             " WHERE" +
             " t.id = #{id}")
     ProductSkuKey selectById(@Param("id") Long id);
+
+    @Update("update product_sku_key k set k.service_name = #{serviceName}, k.flag_enable = #{flagEnable}, k.description = #{description} where k.id = #{serviceId}")
+    Integer updateById(@Param("serviceId") Long serviceId, @Param("serviceName") String serviceName, @Param("flagEnable") String flagEnable, @Param("description") String description);
+
+    @Select("select count(0) from product_sku_key where service_name = #{serviceName} and id != #{serviceId}")
+    Integer queryCountByNameAndId(@Param("serviceName") String serviceName, @Param("serviceId") Long serviceId);
+
+    @Select("select count(0) from product_sku_key where service_name = #{serviceName}")
+    Integer queryCountByName(@Param("serviceName") String serviceName);
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boxfishedu.online.mall.mappers.SkuComboVoMapper">
+
+    <select id="querySkusWithPage" resultType="com.boxfishedu.online.mall.entity.SkuValueVo">
+
+        select *
+        from
+            (SELECT
+                    v.id AS id,
+                    k.service_name AS serviceName,
+                    v.sku_name AS skuName,
+                    v.sku_code AS skuCode,
+                    v.flag_enable AS flagEnable,
+                    v.flag_visible AS flagVisible,
+                    v.service_type AS serviceType
+                FROM
+                product_sku_value v
+                INNER JOIN product_sku_key k ON v.service_id = k.id
+                where 1=1
+            <if test="serviceName != null and serviceName != ''">
+                and k.service_name=#{serviceName}
+            </if>
+            <if test="skuName != null and skuName != ''">
+                and v.sku_name=#{skuName}
+            </if>
+            <!--<if test="originallPrice != null and originallPrice != ''">-->
+                <!--and c.original_price=#{originallPrice}-->
+            <!--</if>-->
+            <!--<if test="actualPrice != null and actualPrice != ''">-->
+                <!--and c.actual_price=#{actualPrice}-->
+            <!--</if>-->
+            order by service_id, id ) t
+        limit #{rowOffset},#{pageNum}
+    </select>
+
+</mapper>

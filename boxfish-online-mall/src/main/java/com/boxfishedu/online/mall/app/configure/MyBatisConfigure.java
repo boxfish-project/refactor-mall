@@ -30,10 +30,11 @@ public class MyBatisConfigure implements TransactionManagementConfigurer {
     DataSource dataSource;
 
     @Bean(name = "sqlSessionFactory")
-    public SqlSessionFactory sqlSessionFactoryBean() {
+    public SqlSessionFactory sqlSessionFactoryBean() throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
         bean.setTypeAliasesPackage("tk.mybatis.springboot.model");
+//        bean.getObject().getConfiguration().setMapUnderscoreToCamelCase(true);//sql语句驼峰命名,配置文件中的查询函数无法读取
 
         //分页插件
         PageHelper pageHelper = new PageHelper();
@@ -42,6 +43,7 @@ public class MyBatisConfigure implements TransactionManagementConfigurer {
         properties.setProperty("supportMethodsArguments", "true");
         properties.setProperty("returnPageInfo", "check");
         properties.setProperty("params", "count=countSql");
+
         pageHelper.setProperties(properties);
 
         //添加插件

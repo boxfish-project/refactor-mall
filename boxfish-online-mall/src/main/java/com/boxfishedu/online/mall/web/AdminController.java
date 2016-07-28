@@ -1,6 +1,8 @@
 package com.boxfishedu.online.mall.web;
 
 import com.boxfishedu.online.mall.entity.ComboVo;
+import com.boxfishedu.online.mall.entity.ProductSkuKey;
+import com.boxfishedu.online.mall.entity.SkuValueVo;
 import com.boxfishedu.online.mall.entity.TreeNode;
 import com.boxfishedu.online.mall.service.ProductSkuAdminService;
 import com.boxfishedu.online.mall.service.ProductSkuComboService;
@@ -50,12 +52,12 @@ public class AdminController {
     }
 
     /**
-     * 表格数据加载
+     * 套餐表格数据加载
      * @return
      */
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
-    public ModelMap test(ComboVo comboVo){
+    public ModelMap getCombos(ComboVo comboVo){
         ModelMap modelMap = new ModelMap();
         List<ComboVo> comboVos = this.adminService.queryCombos(comboVo);
 
@@ -68,13 +70,19 @@ public class AdminController {
         return modelMap;
     }
 
-    // FIXME: 16/7/22 表格的数据修改路径默认为post,找不到设置请求方式的地方
+    /**
+     * 套餐数据修改
+     * 表格的数据修改路径默认为post,找不到设置请求方式的地方
+     */
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     public CommonResult updateCombo(Long id, Long actualPrice){
         return CommonResult.createCommonResult(this.adminService.updateCom(id, actualPrice));
     }
 
-    // FIXME: 16/7/22 表格数据删除路径默认为post,找不到设置请求方式的地方
+    /**
+     * 套餐数据删除
+     * 表格数据删除路径默认为post,找不到设置请求方式的地方
+     */
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
     public CommonResult deleteCombo(Long id){
         Boolean row = this.adminService.deleteComboById(id);
@@ -112,4 +120,79 @@ public class AdminController {
         return CommonResult.createCommonResult(treeData);
     }
 
+    /**
+     * 服务管理接口
+     */
+    @RequestMapping(value = "/services/list", method = RequestMethod.GET)
+    public ModelMap getService(ProductSkuKey productSkuKey){
+        ModelMap modelMap = new ModelMap();
+        List<ProductSkuKey> list = this.adminService.queryServices(productSkuKey);
+
+        PageInfo<ProductSkuKey> pageInfo = new PageInfo<>(list);
+        modelMap.addAttribute("page", pageInfo.getPageNum());//当前页号
+        modelMap.addAttribute("total", pageInfo.getPages());//总页数
+        modelMap.addAttribute("records", pageInfo.getTotal());//总记录数
+        modelMap.addAttribute("rows", list);//记录
+        return modelMap;
+    }
+
+    @RequestMapping(value = "/services/delete", method = RequestMethod.POST)
+    public CommonResult delService(ProductSkuKey productSkuKey){
+        Integer row = this.adminService.delService(productSkuKey);
+        return CommonResult.createCommonResult(row);
+    }
+
+    @RequestMapping(value = "/services/update", method = RequestMethod.POST)
+    public CommonResult updateService(ProductSkuKey productSkuKey){
+        Integer row = this.adminService.updateService(productSkuKey);
+        return CommonResult.createCommonResult(row);
+    }
+
+    @RequestMapping(value = "/services/create", method = RequestMethod.POST)
+    public CommonResult createService(@RequestBody ProductSkuKey productSkuKey, HttpServletResponse response) throws IOException {
+        Integer row = this.adminService.createService(productSkuKey);
+        if(0 == row){
+            InvalidInputResponseBuilder.unauthorized(response, "服务已存在!");
+            return null;
+        }
+        return CommonResult.createCommonResult(row);
+    }
+
+    /**
+     * sku管理接口
+     */
+    @RequestMapping(value = "/sku/list", method = RequestMethod.GET)
+    public ModelMap getSkus(SkuValueVo skuValueVo){
+        ModelMap modelMap = new ModelMap();
+        List<SkuValueVo> list = this.adminService.quertSkusWithPage(skuValueVo);
+
+        PageInfo<SkuValueVo> pageInfo = new PageInfo<>(list);
+        modelMap.addAttribute("page", pageInfo.getPageNum());//当前页号
+        modelMap.addAttribute("total", pageInfo.getPages());//总页数
+        modelMap.addAttribute("records", pageInfo.getTotal());//总记录数
+        modelMap.addAttribute("rows", list);//记录
+        return modelMap;
+    }
+
+    @RequestMapping(value = "/sku/create", method = RequestMethod.POST)
+    public CommonResult createSkuCombo(@RequestBody SkuValueVo skuValueVo, HttpServletResponse response) throws IOException {
+        Integer row = this.adminService.createSkuCombo(skuValueVo);
+        if(0 == row){
+            InvalidInputResponseBuilder.unauthorized(response, "sku已存在!");
+            return null;
+        }
+        return CommonResult.createCommonResult(row);
+    }
+
+    @RequestMapping(value = "/sku/update", method = RequestMethod.POST)
+    public CommonResult updateSkuCombo(SkuValueVo skuValueVo){
+        Integer row = this.adminService.updateSkuCombo(skuValueVo);
+        return CommonResult.createCommonResult(row);
+    }
+
+    @RequestMapping(value = "/sku/delete", method = RequestMethod.POST)
+    public CommonResult deleteSkuCombo(Long id){
+        Integer row = this.adminService.delSkuCombo(id);
+        return CommonResult.createCommonResult(row);
+    }
 }

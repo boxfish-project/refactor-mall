@@ -1,7 +1,6 @@
 package com.boxfishedu.online.mall.entity;
 
 import com.boxfishedu.protocal.enums.Flag;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.google.common.collect.Lists;
 import lombok.Data;
 import lombok.ToString;
@@ -13,12 +12,17 @@ import java.util.List;
 /**
  * Created by lauzhihao on 2016/04/18.
  * <p>
- * 用于描述Boxfish收费服务基本信息的JPA实体类
+ * 用于描述Boxfish收费服务基本信息的实体类
  */
 @ToString(exclude = "serviceSKUSet")
 @Data(staticConstructor = "createInstance")
 @Entity
 public class ProductSkuKey {
+
+    @Transient
+    private Integer page = 1;
+    @Transient
+    private Integer rows = 20;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,6 +33,12 @@ public class ProductSkuKey {
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date startTime;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date stopTime;
 
     private String serviceCode;
 
@@ -44,5 +54,6 @@ public class ProductSkuKey {
 
     @Transient
     private List<ProductSkuValue> serviceSKUSet = Lists.newArrayList();
+
 
 }

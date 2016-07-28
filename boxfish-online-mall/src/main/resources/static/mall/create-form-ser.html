@@ -1,0 +1,75 @@
+<div class="modal-content">
+    <div class="modal-header no-padding">
+        <div class="table-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <span class="white">×</span>
+            </button>
+            新增
+            <i class="ace-icon fa fa-spinner fa-spin orange bigger-180 hidden" id="processing"></i>
+        </div>
+    </div>
+    <div class="modal-body no-padding">
+        <form id="queryForm" class="form-horizontal">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space-10"></div>
+                    <label class="col-md-4 control-label" for="serviceName">serviceName</label>
+                    <div class="col-md-4">
+                        <input id="serviceName" name="serviceName" type="text" class="form-control input-md text-center">
+                    </div>
+                    <!--<br><br>-->
+                    <!--<label class="col-md-4 control-label" for="flagEnable">flagEnable</label>-->
+                    <!--<div class="col-md-4">-->
+                        <!--&lt;!&ndash;<input id="flagEnable" name="flagEnable" type="text" class="form-control input-md text-center">&ndash;&gt;-->
+                        <!--<input type="checkbox" value="ENABLE" offval="DISABLE" id="flagEnable" name="flagEnable" role="checkbox" class="ace ace-switch ace-switch-5">-->
+                    <!--</div>-->
+                    <br><br>
+                    <label class="col-md-4 control-label" for="description">description</label>
+                    <div class="col-md-4">
+                        <input id="description" name="description" type="text" class="form-control input-md text-center">
+                        <span id="errorMsg"></span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="space-10"></div>
+    <div class="modal-footer no-margin-top center">
+        <button class="btn btn-sm btn-default fa-pull-right" data-dismiss="modal" id="btnClose">
+            <i class="ace-icon fa fa-times"></i>
+            取消
+        </button>
+
+        <button class="btn btn-sm btn-success fa-pull-right" id="btnSubmit">
+            <i class="ace-icon fa fa-check"></i>
+            确认
+        </button>
+    </div>
+</div>
+<!-- 表格生成脚本 -->
+<script src="js/create-form-ser.js"></script>
+<script src="assets/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript">
+    $( "#startTime" ).datepicker({
+        showOtherMonths: true,
+        selectOtherMonths: false,
+        isRTL:true,
+
+
+         changeMonth: true,
+         changeYear: true,
+
+         showButtonPanel: true,
+         beforeShow: function() {
+         //change button colors
+         var datepicker = $(this).datepicker( "widget" );
+         setTimeout(function(){
+         var buttons = datepicker.find('.ui-datepicker-buttonpane')
+         .find('button');
+         buttons.eq(0).addClass('btn btn-xs');
+         buttons.eq(1).addClass('btn btn-xs btn-success');
+         buttons.wrapInner('<span class="bigger-110" />');
+         }, 0);
+         }
+    });
+</script>

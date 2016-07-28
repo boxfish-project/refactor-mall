@@ -53,25 +53,4 @@
         limit #{rowOffset},#{pageNum}
     </select>
 
-    <select id="countOrderinfo" resultType="int">
-        select count(*)
-        from orderinfo
-        where 1=1
-        <if test="userId != null and userId != ''">
-            and user_id=#{userId}
-        </if>
-        <if test="orderNo != null and orderNo != ''">
-            and order_no=#{orderNo}
-        </if>
-        <if test="orderState != null and orderState != ''">
-            and order_state=#{orderState}
-        </if>
-        <if test="startOrderTime != null ">
-            and order_time <![CDATA[>=]]> #{startOrderTime}
-        </if>
-        <if test="endOrderTime != null ">
-            and order_time <![CDATA[<=]]> #{endOrderTime}
-        </if>
-    </select>
-
 </mapper>

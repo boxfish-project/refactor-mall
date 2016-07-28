@@ -1,0 +1,68 @@
+<div class="modal-content">
+    <div class="modal-header no-padding">
+        <div class="table-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <span class="white">×</span>
+            </button>
+            筛选
+            <i class="ace-icon fa fa-spinner fa-spin orange bigger-180 hidden" id="processing"></i>
+        </div>
+    </div>
+    <div class="modal-body no-padding">
+        <form id="queryForm" class="form-horizontal">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space-10"></div>
+                    <label class="col-md-4 control-label" for="serviceName">serviceName</label>
+                    <div class="col-md-4">
+                        <input id="serviceName" name="serviceName" type="text" placeholder="模糊查询" class="form-control input-md">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="serviceCode">serviceCode</label>
+                    <div class="col-md-4">
+                        <input id="serviceCode" name="serviceCode" type="text" placeholder="精确匹配" class="form-control input-md">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="flagEnable">flagEnable</label>
+                    <div class="col-md-4">
+                        <input id="flagEnable" name="flagEnable" type="text" placeholder="精确匹配" class="form-control input-md">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="space-10"></div>
+    <div class="modal-footer no-margin-top center">
+        <button class="btn btn-sm btn-default fa-pull-right" data-dismiss="modal" id="btnClose">
+            <i class="ace-icon fa fa-times"></i>
+            取消
+        </button>
+
+        <button class="btn btn-sm btn-success fa-pull-right" id="btnSubmit">
+            <i class="ace-icon fa fa-check"></i>
+            确认
+        </button>
+    </div>
+</div>
+<script type="text/javascript">
+
+    $("#btnSubmit").on('click', function () {
+        $("#processing").removeClass("hidden");
+        var serviceName = $('#serviceName').val();
+        var serviceCode = $('#serviceCode').val();
+        var flagEnable = $('#flagEnable').val();
+
+        reloadTable(serviceName, serviceCode, flagEnable);
+        $("#btnClose").click();
+    });
+
+    //按查询条件重新加载表格数据
+    function reloadTable(p1, p2, p3) {
+        $("#grid-table").jqGrid('setGridParam', {
+            datatype: "json",
+            url: "/admin/services/list?access_token=" + $accessToken+ "&serviceName=" + p1 + "&serviceCode=" + p2 + "&flagEnable=" + p3,
+            page: 1
+        }).trigger('reloadGrid');
+    }
+
+</script>

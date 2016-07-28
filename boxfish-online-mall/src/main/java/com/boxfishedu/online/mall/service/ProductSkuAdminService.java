@@ -1,12 +1,9 @@
 package com.boxfishedu.online.mall.service;
 
-import com.boxfishedu.online.mall.entity.AdditionalParameters;
-import com.boxfishedu.online.mall.entity.ComboVo;
-import com.boxfishedu.online.mall.entity.ProductSkuCombo;
-import com.boxfishedu.online.mall.entity.TreeNode;
-import com.boxfishedu.online.mall.mappers.ComboMapper;
-import com.boxfishedu.online.mall.mappers.SkuComboMapper;
-import com.boxfishedu.online.mall.mappers.SkuValueMapper;
+import com.boxfishedu.online.mall.entity.*;
+import com.boxfishedu.online.mall.mappers.*;
+import com.boxfishedu.protocal.enums.Flag;
+import com.github.pagehelper.PageHelper;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.yaml.snakeyaml.constructor.Construct;
+import tk.mybatis.mapper.entity.Example;
 
 import java.awt.*;
 import java.util.*;
@@ -30,6 +28,10 @@ public class ProductSkuAdminService {
     private SkuComboMapper skuComboMapper;
     @Autowired
     private SkuValueMapper skuValueMapper;
+    @Autowired
+    private SkuKeyMapper skuKeyMapper;
+    @Autowired
+    private SkuComboVoMapper skuComboVoMapper;
     @Value("${conf.defaultPageNum}")
     private int defaultPageNum;
 
@@ -153,6 +155,7 @@ public class ProductSkuAdminService {
     /**
      * 树节点页面使用
      */
+    // FIXME: 16/7/25 并发?
     public List<TreeNode> treeData(){
         //返回前台的json字符串
         List<TreeNode> result = Lists.newArrayList();
@@ -203,6 +206,99 @@ public class ProductSkuAdminService {
             }
         }
         return children;
+    }
+
+    /**
+     * 树节点维护
+     */
+    public List<ProductSkuKey> queryServices(ProductSkuKey productSkuKey){
+        if(!Objects.isNull(productSkuKey.getPage()) && !Objects.isNull(productSkuKey.getRows())){
+            PageHelper.startPage(productSkuKey.getPage(), productSkuKey.getRows());
+        }
+
+        Example example = new Example(ProductSkuKey.class);
+        Example.Criteria criteria = example.createCriteria();
+
+        if(!StringUtils.isEmpty(productSkuKey.getServiceName())){
+            criteria.andLike("serviceName", "%" + productSkuKey.getServiceName() + "%");
+        }
+        if(!StringUtils.isEmpty(productSkuKey.getServiceCode())){
+            criteria.andEqualTo("serviceCode", productSkuKey.getServiceCode());
+        }
+        if(!StringUtils.isEmpty(productSkuKey.getFlagEnable())){
+            criteria.andEqualTo("flagEnable", productSkuKey.getFlagEnable());
+        }
+        example.setOrderByClause("id");
+
+        return this.skuKeyMapper.selectByExample(example);
+    }
+
+    public Integer createService(ProductSkuKey productSkuKey){
+        if(this.skuKeyMapper.queryCountByName(productSkuKey.getServiceName()) != 0){
+            return 0;
+        }
+        ProductSkuKey key = ProductSkuKey.createInstance();
+        key.setServiceName(productSkuKey.getServiceName());
+        key.setFlagEnable(Flag.ENABLE);
+        key.setDescription(productSkuKey.getDescription());
+        key.setServiceCode(productSkuKey.getServiceCode());//自己填写
+        key.setCreateTime(Calendar.getInstance().getTime());
+        key.setStartTime(Calendar.getInstance().getTime());
+        key.setStopTime(Calendar.getInstance().getTime());
+        key.setDeadline(Calendar.getInstance().getTime());
+        return this.skuKeyMapper.insert(key);
+    }
+
+    public Integer delService(ProductSkuKey productSkuKey){
+        return this.skuKeyMapper.deleteByPrimaryKey(productSkuKey.getId());
+    }
+
+    public Integer updateService(ProductSkuKey productSkuKey){
+        if(this.skuKeyMapper.queryCountByNameAndId(productSkuKey.getServiceName(), productSkuKey.getId()) != 0){
+            return 0;
+        }
+        return this.skuKeyMapper.updateById(productSkuKey.getId(), productSkuKey.getServiceName(), productSkuKey.getFlagEnable().toString(), productSkuKey.getDescription());
+    }
+
+    public List<SkuValueVo>quertSkusWithPage(SkuValueVo skuValueVo){
+        Map<String, Object>paramMap = Maps.newHashMap();
+        paramMap.put("serviceName", skuValueVo.getServiceName());
+        paramMap.put("skuName", skuValueVo.getSkuName());
+
+        Map<String, String> pageMap = Maps.newHashMap();
+        pageMap.put("pageNum", skuValueVo.getRows().toString());
+        pageMap.put("pageNo", skuValueVo.getPage().toString());
+        paramMap.putAll(this.generatePageParam(pageMap));
+
+        return this.skuComboVoMapper.querySkusWithPage(paramMap);
+    }
+
+    public Integer updateSkuCombo(SkuValueVo skuValueVo){
+        return this.skuComboVoMapper.updateSkuCombo(skuValueVo.getId(), skuValueVo.getSkuName());
+    }
+
+    public Integer delSkuCombo(Long id){
+        return this.skuValueMapper.deleteByPrimaryKey(id);
+    }
+
+    public Integer createSkuCombo(SkuValueVo skuValueVo){
+        ProductSkuValue valueVo = ProductSkuValue.createInstance();
+        if(this.skuComboVoMapper.checkSkuCombo(skuValueVo.getSkuName()) != 0){
+            return 0;
+        }
+        valueVo.setServiceId(skuValueVo.getServiceId());
+        valueVo.setSkuName(skuValueVo.getSkuName());
+        valueVo.setOriginalPrice(skuValueVo.getOriginalPrice());
+        valueVo.setDescription(skuValueVo.getDescription());
+
+        valueVo.setFlagEnable(Flag.ENABLE);
+        valueVo.setFlagVisible(Flag.ENABLE);
+        valueVo.setDeadline(Calendar.getInstance().getTime());
+        valueVo.setValidDay(365);
+        valueVo.setCreateTime(Calendar.getInstance().getTime());
+        valueVo.setSkuCode("1234");
+        valueVo.setDeadline(Calendar.getInstance().getTime());
+        return this.skuValueMapper.insert(valueVo);
     }
 
 }
