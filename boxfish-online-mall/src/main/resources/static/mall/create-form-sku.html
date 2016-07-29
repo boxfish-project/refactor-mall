@@ -1,0 +1,58 @@
+<div class="modal-content">
+    <div class="modal-header no-padding">
+        <div class="table-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <span class="white">×</span>
+            </button>
+            新增
+            <i class="ace-icon fa fa-spinner fa-spin orange bigger-180 hidden" id="processing"></i>
+        </div>
+    </div>
+    <div class="modal-body no-padding">
+        <form id="queryForm" class="form-horizontal">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space-10"></div>
+                    <label class="col-md-4 control-label">serviceName</label>
+                    <div class="col-md-4" id="serviceName_div">
+                        <select id="serviceName" name="serviceName">
+                            <option value="">请选择数据</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="skuName">skuName</label>
+                    <div class="col-md-4">
+                        <input id="skuName" name="skuName" type="text" class="form-control input-md">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="originalPrice">originalPrice</label>
+                    <div class="col-md-4">
+                        <input id="originalPrice" name="originalPrice" type="text" class="form-control input-md text-center">
+                    </div>
+                    <br><br>
+                    <label class="col-md-4 control-label" for="description">description</label>
+                    <div class="col-md-4">
+                        <input id="description" name="description" type="text" class="form-control input-md text-center">
+                        <span id="errorMsg"></span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="space-10"></div>
+    <div class="modal-footer no-margin-top center">
+        <button class="btn btn-sm btn-default fa-pull-right" data-dismiss="modal" id="btnClose">
+            <i class="ace-icon fa fa-times"></i>
+            取消
+        </button>
+
+        <button class="btn btn-sm btn-success fa-pull-right" id="btnSubmit">
+            <i class="ace-icon fa fa-check"></i>
+            确认
+        </button>
+    </div>
+</div>
+<!-- 表格生成脚本 -->
+<script src="js/create-form-sku.js"></script>
+<script type="text/javascript">
+</script>

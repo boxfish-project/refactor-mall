@@ -1,3 +1,6 @@
+/**
+ * Created by malu on 16/7/26.
+ */
 function getParameter(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
@@ -10,28 +13,10 @@ function getParameter(name) {
 var $role = getParameter("role");
 var $accessToken = getParameter("access_token");
 
-<!-- inline scripts related to this page -->
-//邀请码列专用的格式:未使用的以超链接格式存在,已使用的只显示内容
-$.extend($.fn.fmatter.actions, {
-    showLinkFormatter: function (cellval,opts) {
-        
-    }
-});
-
-//状态列专用格式:used显示为已使用,unused显示未使用
-$.extend($.fn.fmatter, {
-    priceFormatter: function (cellvalue, options, rowdata) {
-        //
-        cellvalue = cellvalue.replace(/[^\d]/g, "");
-        cellvalue = cellvalue - 1 + 1;//"01"->"1"
-        return cellvalue;
-    }
-});
-
 $(function ($) {
     var server_host = "";
-    var grid_selector = "#grid-table";
-    var pager_selector = "#grid-pager";
+    var grid_selector = "#grid-table-sku";
+    var pager_selector = "#grid-pager-sku";
 
     //resize to fit page size
     $(window).on('resize.jqGrid', function () {
@@ -39,39 +24,40 @@ $(function ($) {
     });
 
     $(grid_selector).jqGrid({
-        url: server_host + "/admin/list?access_token=" + $accessToken,
-        editurl: "/admin/update",
+        url: server_host + "/admin/skus/list?access_token=" + $accessToken,
+        editurl: "/admin/skus/update",
         mtype: "get",
         datatype: "json",
-        height: 450,
+        height: 320,
         emptyrecords: "未检索到相关数据",
-        colNames: ['操作', '序号', '服务类型', '单品名称', '单价', '数量', '原价', '套餐价', '创建时间', '修改时间'],
+        colNames: ['operate', 'ID', 'serviceName', 'skuName', 'flagEnable', 'flagVisible', 'originalPrice','description'],
         colModel: [
             {name: 'myac', index: '', width: 40, align: "center", sortable: false, search: false, formatter: "actions",
                 formatoptions:
-                           {
-                               keys: true,
-                               editOptions: {  //编辑操作，这个很重要，实现编辑时传送参数什么的。  
-                                   reloadAfterSubmit: true,
-                                   editData: {}
-                                },
-                               delOptions: { //删除操作，这个很重要，实现删除时传送参数什么的。  这处网上没有例子的。  
-                                   url: "/admin/delete",
-                                   reloadAfterSubmit: true,                                   
-                                   delData: {}
-                               }
-                           }
+                {
+                    keys: true,
+                    editOptions: {  //编辑操作，这个很重要，实现编辑时传送参数什么的。  
+                        reloadAfterSubmit: true,
+                        editData: {}
+                    },
+                    delOptions: { //删除操作，这个很重要，实现删除时传送参数什么的。  这处网上没有例子的。  
+                        url: "/admin/skus/delete",
+                        reloadAfterSubmit: true,
+                        delData: {}
+                    }
+                }
             },
             {name: 'id', index: 'id', width: 40, align: "center", sortable: false, search: false},
-            {name: 'serviceName', index: 'serviceName', width: 90, align: "center", sortable: false, search: false},
-            {name: 'skuName', index: 'skuName', width: 90, align: "center", sortable: false, search: false}, 
-            {name: 'unitPrice', index: 'unitPrice', width: 40, align: "center", sortable: false, search: false}, 
-            {name: 'skuAmount', index: 'skuAmount', width: 40, align: "center", sortable: false, search: false}, 
-            {name: 'originalPrice', index: 'originalPrice', width: 40, align: "center", sortable: false, search: false}, 
-            {name: 'actualPrice', index: 'actualPrice', width: 40, align: "center", sortable: false, search: false,
-                editable: true, editrules:{number: true}, formatter:"priceFormatter"}, 
-            {name: 'createTime', index: 'createTime', width: 90, align: "center", sortable: false, search: false}, 
-            {name: 'updateTime', index: 'updateTime', width: 90, align: "center", sortable: false, search: false}
+            {name: 'serviceName', index: 'serviceName', width: 60, align: "center", sortable: false, search: false},
+            {name: 'skuName', index: 'skuName', width: 40, align: "center", sortable: false, search: false, editable: true},
+            {name: 'flagEnable', index: 'flagEnable', width: 40, align: "center", sortable: false, search: false,
+                editable: true,edittype:"checkbox",editoptions: {value:"ENABLE:DISABLE"},unformat: aceSwitch},
+            {name: 'flagVisible', index: 'flagVisible', width: 40, align: "center", sortable: false, search: false,
+                editable: true,edittype:"checkbox",editoptions: {value:"ENABLE:DISABLE"},unformat: aceSwitch},
+            {name: 'originalPrice', index: 'originalPrice', width: 60, align: "center", sortable: false, search: false,
+                editable: true,editrules:{number: true}},
+            {name: 'description', index: 'description', width: 90, align: "center", sortable: false, search: false,
+                editable: true,edittype:"textarea", editoptions:{rows:"2",cols:"10"}}
         ],
         sortable: false,
         viewrecords: true,
@@ -98,7 +84,7 @@ $(function ($) {
             window.location.href = "/";
         },
 
-        caption: "Combos Admin",
+        caption: "Skus Admin",
         autowidth: true
     });
     $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
@@ -137,7 +123,7 @@ $(function ($) {
                 buttonicon: 'ace-icon fa fa-plus-circle purple bigger-160',
                 onClickButton: function () {
                     $.ajax({
-                        url: "add-form.html",
+                        url: "create-form-sku.html",
                         success: function (result) {
                             $('.modal-dialog').html(result);
                             $("#btnCreate").click();
@@ -148,6 +134,26 @@ $(function ($) {
             });
     }
 
+
+
+
+
+
+    //switch element when editing inline
+    function aceSwitch( cellvalue, options, cell ) {
+        setTimeout(function(){
+            $(cell) .find('input[type=checkbox]')
+                .addClass('ace ace-switch ace-switch-5')
+                .after('<span class="lbl"></span>');
+        }, 0);
+    }
+    //enable datepicker
+    function pickDate( cellvalue, options, cell ) {
+        setTimeout(function(){
+            $(cell) .find('input[type=text]')
+                .datepicker({dateFormat: 'yyyy-mm-dd', autoclose:true, todayHighlight:true});
+        }, 0);
+    }
 
     //replace icons with FontAwesome icons like above
     function updatePagerIcons(table) {
@@ -174,7 +180,7 @@ $(function ($) {
     //加载查询条件遮罩层
     function loadQueryForm() {
         $.ajax({
-            url: "query-form.html",
+            url: "query-form-sku.html",
             success: function (result) {
                 $('.modal-dialog').html(result);
                 $('#btnQuery').click();

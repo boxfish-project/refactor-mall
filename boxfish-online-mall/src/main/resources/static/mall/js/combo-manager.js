@@ -21,7 +21,7 @@ $(function ($) {
     $(tree_view).ace_tree({
         dataSource: sampleData['dataSource'],
         multiSelect: false,
-        // cacheItems: true,
+        cacheItems: true,
         'open-icon' : 'ace-icon tree-minus',
         'close-icon' : 'ace-icon tree-plus',
         'selectable' : true,
@@ -69,7 +69,7 @@ $(function ($) {
     //初始化数据
     function initData() {
         var dataSource = function(options, callback){
-            var $data = null
+            var $data = null;
             if(!("text" in options) && !("type" in options)){
                 $.ajax({
                     url: "/admin/tree/initDate",
@@ -87,7 +87,7 @@ $(function ($) {
             }
             else if("type" in options && options.type == "folder") {
                 if("additionalParameters" in options && "children" in options.additionalParameters)
-                    $data = options.additionalParameters.children || {};
+                    $data = options.additionalParameters.children || {};//点击父节点，加载子节点
                 else $data = {}//no data
             }
             if($data != null)//this setTimeout is only for mimicking some random delay

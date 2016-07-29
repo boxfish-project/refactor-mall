@@ -14,16 +14,17 @@
                     v.sku_code AS skuCode,
                     v.flag_enable AS flagEnable,
                     v.flag_visible AS flagVisible,
-                    v.service_type AS serviceType
+                    v.original_price AS originalPrice,
+                    v.description AS description
                 FROM
                 product_sku_value v
                 INNER JOIN product_sku_key k ON v.service_id = k.id
                 where 1=1
             <if test="serviceName != null and serviceName != ''">
-                and k.service_name=#{serviceName}
+                and k.service_name like "%"#{serviceName}"%"
             </if>
             <if test="skuName != null and skuName != ''">
-                and v.sku_name=#{skuName}
+                and v.sku_name like "%"#{skuName}"%"
             </if>
             <!--<if test="originallPrice != null and originallPrice != ''">-->
                 <!--and c.original_price=#{originallPrice}-->

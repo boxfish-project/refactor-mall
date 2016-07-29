@@ -26,9 +26,27 @@ $(function ($) {
     $(grid_selector).jqGrid({
         url: server_host + "/admin/services/list?access_token=" + $accessToken,
         editurl: "/admin/services/update",
+        editoptions: {  //编辑操作，这个很重要，实现编辑时传送参数什么的。 
+            reloadAfterSubmit: true,
+            recreateForm: true,
+            afterSubmit:function(){
+                $("#grid-table").jqGrid('setGridParam', {
+                    datatype: "json",
+                    url: "/admin/services/list?access_token=" + $accessToken,
+                    page: 1
+                }).trigger('reloadGrid');
+                //刷新skus管理界面
+                $("#grid-table-sku").jqGrid('setGridParam', {
+                    datatype: "json",
+                    url: "/admin/skus/list?access_token=" + $accessToken,
+                    page: 1
+                }).trigger('reloadGrid');
+            },
+            editData: {}
+        },
         mtype: "get",
         datatype: "json",
-        height: 450,
+        height: 280,
         emptyrecords: "未检索到相关数据",
         colNames: ['operate', 'ID', 'serviceName', 'serviceCode', 'flagEnable', 'startTime', 'stopTime', 'deadline', 'description'],
         colModel: [
@@ -36,13 +54,41 @@ $(function ($) {
                 formatoptions:
                 {
                     keys: true,
-                    editOptions: {  //编辑操作，这个很重要，实现编辑时传送参数什么的。  
-                        reloadAfterSubmit: true,
-                        editData: {}
-                    },
+                    // editoptions: {  //编辑操作，这个很重要，实现编辑时传送参数什么的。 
+                    //     reloadAfterSubmit: true,
+                    //     recreateForm: true,
+                    //     afterSubmit:function(){
+                    //         $("#grid-table").jqGrid('setGridParam', {
+                    //             datatype: "json",
+                    //             url: "/admin/services/list?access_token=" + $accessToken,
+                    //             page: 1
+                    //         }).trigger('reloadGrid');
+                    //         //刷新skus管理界面
+                    //         $("#grid-table-sku").jqGrid('setGridParam', {
+                    //             datatype: "json",
+                    //             url: "/admin/skus/list?access_token=" + $accessToken,
+                    //             page: 1
+                    //         }).trigger('reloadGrid');
+                    //     },
+                    //     editData: {}
+                    // },
                     delOptions: { //删除操作，这个很重要，实现删除时传送参数什么的。  这处网上没有例子的。  
                         url: "/admin/services/delete",
-                        reloadAfterSubmit: true,
+                        //删除动作成功后刷新页面表格
+                        afterSubmit:function(){
+                            $("#eData").click();
+                            $("#grid-table").jqGrid('setGridParam', {
+                                datatype: "json",
+                                url: "/admin/services/list?access_token=" + $accessToken,
+                                page: 1
+                            }).trigger('reloadGrid');
+                            //刷新skus管理界面
+                            $("#grid-table-sku").jqGrid('setGridParam', {
+                                datatype: "json",
+                                url: "/admin/skus/list?access_token=" + $accessToken,
+                                page: 1
+                            }).trigger('reloadGrid');
+                        },
                         delData: {}
                     }
                 }
@@ -119,6 +165,12 @@ $(function ($) {
                 url: "/admin/services/list?access_token=" + $accessToken,
                 page: 1
             }).trigger('reloadGrid');
+            //刷新skus管理界面
+            $("#grid-table-sku").jqGrid('setGridParam', {
+                datatype: "json",
+                url: "/admin/skus/list?access_token=" + $accessToken,
+                page: 1
+            }).trigger('reloadGrid');
         },
         position: "last"
     }).navButtonAdd(pager_selector, {
@@ -149,6 +201,11 @@ $(function ($) {
                 position: "last"
             });
     }
+
+
+
+
+
 
     //switch element when editing inline
     function aceSwitch( cellvalue, options, cell ) {

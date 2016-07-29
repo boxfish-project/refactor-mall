@@ -10,10 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-import org.yaml.snakeyaml.constructor.Construct;
 import tk.mybatis.mapper.entity.Example;
 
-import java.awt.*;
 import java.util.*;
 import java.util.List;
 
@@ -274,7 +272,11 @@ public class ProductSkuAdminService {
     }
 
     public Integer updateSkuCombo(SkuValueVo skuValueVo){
-        return this.skuComboVoMapper.updateSkuCombo(skuValueVo.getId(), skuValueVo.getSkuName());
+        if(this.skuComboVoMapper.queryByNameAndName(skuValueVo.getSkuName(), skuValueVo.getId()) != 0){
+            return 0;
+        }
+        return this.skuComboVoMapper.updateSkuCombo(skuValueVo.getId(), skuValueVo.getSkuName(), skuValueVo.getFlagEnable(),
+                skuValueVo.getFlagVisible(), skuValueVo.getOriginalPrice(), skuValueVo.getDescription());
     }
 
     public Integer delSkuCombo(Long id){
@@ -283,7 +285,7 @@ public class ProductSkuAdminService {
 
     public Integer createSkuCombo(SkuValueVo skuValueVo){
         ProductSkuValue valueVo = ProductSkuValue.createInstance();
-        if(this.skuComboVoMapper.checkSkuCombo(skuValueVo.getSkuName()) != 0){
+        if(this.skuComboVoMapper.querySkuComboByName(skuValueVo.getSkuName()) != 0){
             return 0;
         }
         valueVo.setServiceId(skuValueVo.getServiceId());

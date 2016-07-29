@@ -161,7 +161,7 @@ public class AdminController {
     /**
      * sku管理接口
      */
-    @RequestMapping(value = "/sku/list", method = RequestMethod.GET)
+    @RequestMapping(value = "/skus/list", method = RequestMethod.GET)
     public ModelMap getSkus(SkuValueVo skuValueVo){
         ModelMap modelMap = new ModelMap();
         List<SkuValueVo> list = this.adminService.quertSkusWithPage(skuValueVo);
@@ -174,7 +174,7 @@ public class AdminController {
         return modelMap;
     }
 
-    @RequestMapping(value = "/sku/create", method = RequestMethod.POST)
+    @RequestMapping(value = "/skus/create", method = RequestMethod.POST)
     public CommonResult createSkuCombo(@RequestBody SkuValueVo skuValueVo, HttpServletResponse response) throws IOException {
         Integer row = this.adminService.createSkuCombo(skuValueVo);
         if(0 == row){
@@ -184,13 +184,13 @@ public class AdminController {
         return CommonResult.createCommonResult(row);
     }
 
-    @RequestMapping(value = "/sku/update", method = RequestMethod.POST)
+    @RequestMapping(value = "/skus/update", method = RequestMethod.POST)
     public CommonResult updateSkuCombo(SkuValueVo skuValueVo){
         Integer row = this.adminService.updateSkuCombo(skuValueVo);
         return CommonResult.createCommonResult(row);
     }
 
-    @RequestMapping(value = "/sku/delete", method = RequestMethod.POST)
+    @RequestMapping(value = "/skus/delete", method = RequestMethod.POST)
     public CommonResult deleteSkuCombo(Long id){
         Integer row = this.adminService.delSkuCombo(id);
         return CommonResult.createCommonResult(row);
