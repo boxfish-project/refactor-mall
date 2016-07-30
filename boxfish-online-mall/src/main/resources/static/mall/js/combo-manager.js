@@ -37,6 +37,12 @@ $(function ($) {
         clickedItems(data.target);
     }).on('selected.fu.tree', function (evt, data) {
         clickedItems(data.target);
+    }).on('loaded.fu.tree', function(evt, data) {
+        // var list = $("#tree-view").find(".tree-branch")
+        // $.each(list, function (index, item) {
+        //     // console.log(item.css());
+        //     item.click();
+        // });
     });
 
     /**
@@ -253,3 +259,12 @@ $(function ($) {
     }
 
 });
+// $(function () {
+//     console.log($("#tree-view").find(".tree-branch"))
+//     //触发父节点的click事件,默认展开所有节点
+//     // $("#tree-view").find(".tree-plus").each(function(){
+//     //     // console.log($(this).parent().parent().parent());
+//     //         // $(this).trigger("click");
+//     //     // $(this).parent().parent().trigger("click");
+//     // });
+// });
